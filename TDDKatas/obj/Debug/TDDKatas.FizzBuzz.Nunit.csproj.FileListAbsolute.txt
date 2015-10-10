@@ -1,0 +1,5 @@
+C:\Development\Pliyo\TDDKatas\TDDKatas\bin\Debug\TDDKatas.Fizz.dll
+C:\Development\Pliyo\TDDKatas\TDDKatas\bin\Debug\TDDKatas.Fizz.pdb
+C:\Development\Pliyo\TDDKatas\TDDKatas\obj\Debug\TDDKatas.FizzBuzz.Nunit.csprojResolveAssemblyReference.cache
+C:\Development\Pliyo\TDDKatas\TDDKatas\obj\Debug\TDDKatas.Fizz.dll
+C:\Development\Pliyo\TDDKatas\TDDKatas\obj\Debug\TDDKatas.Fizz.pdb
