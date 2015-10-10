@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz.Xunit
 {
-    public class FizzBuzzTests
+    public class FizzBuzzS
     {
     }
 }

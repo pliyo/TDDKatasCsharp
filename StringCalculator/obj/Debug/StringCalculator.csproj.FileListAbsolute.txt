@@ -1,0 +1,5 @@
+C:\Development\Pliyo\TDDKatas\StringCalculator\obj\Debug\StringCalculator.csprojResolveAssemblyReference.cache
+C:\Development\Pliyo\TDDKatas\StringCalculator\bin\Debug\StringCalculator.dll
+C:\Development\Pliyo\TDDKatas\StringCalculator\bin\Debug\StringCalculator.pdb
+C:\Development\Pliyo\TDDKatas\StringCalculator\obj\Debug\StringCalculator.dll
+C:\Development\Pliyo\TDDKatas\StringCalculator\obj\Debug\StringCalculator.pdb

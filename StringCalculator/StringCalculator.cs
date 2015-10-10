@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FizzBuzz.MSTest
+namespace StringCalculator
 {
-    public class MSTest
+    public class StringCalculator
     {
-
     }
 }

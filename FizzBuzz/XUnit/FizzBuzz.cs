@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace TDDKatas.FizzBuzz.Nunit
+namespace FizzBuzz.Xunit
 {
     
     public class FizzBuzzTests
