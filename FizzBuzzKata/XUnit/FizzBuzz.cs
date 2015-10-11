@@ -8,12 +8,8 @@ using Xunit;
 namespace FizzBuzzKata.XUnit
 {
     
-    public class FizzBuzzTests
+    public class FizzBuzz
     {
-        [Fact]
-        public void DoSomething_MustDoSomething()
-        {
-
-        }
+        // TODO: 13-10-20115
     }
 }

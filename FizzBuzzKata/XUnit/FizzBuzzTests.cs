@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FizzBuzzKata.XUnit
 {
-    public class FizzBuzzS
+    public class FizzBuzzTests
     {
+        // TODO: 13-10-2015
     }
 }

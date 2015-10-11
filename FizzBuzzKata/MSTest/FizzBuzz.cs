@@ -7,14 +7,8 @@ using System.Threading.Tasks;
 
 namespace FizzBuzzKata.MSTest
 {
-    [TestClass]
-    public class MSTest
+    public class FizzBuzz
     {
-        [TestMethod]
-        public void FizzBuzz_Something()
-        {
-
-        }
-
+        // TODO: 12-10-2015
     }
 }

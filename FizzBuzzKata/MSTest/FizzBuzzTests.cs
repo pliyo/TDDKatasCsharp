@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace FizzBuzzKata.MSTest
 {
     [TestClass]
-    public class MsTests
+    public class FizzBuzzTests
     {
-        public int Something { get; set; }
+        // TODO: 12-10-2015
     }
 }

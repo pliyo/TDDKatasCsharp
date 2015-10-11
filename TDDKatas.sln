@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzz\FizzBuzzKata.csproj", "{7391D095-C021-440F-82CC-0EF42F5EFF97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKata\FizzBuzzKata.csproj", "{7391D095-C021-440F-82CC-0EF42F5EFF97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator", "StringCalculator\StringCalculator.csproj", "{7797C2D0-505F-4636-8C16-17BD44542063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator", "StringCalculatorKata\StringCalculator.csproj", "{7797C2D0-505F-4636-8C16-17BD44542063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
