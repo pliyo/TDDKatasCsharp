@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FizzBuzz.Xunit
+namespace FizzBuzzKata.XUnit
 {
     public class FizzBuzzS
     {

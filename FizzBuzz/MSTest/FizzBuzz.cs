@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FizzBuzz.MSTest
+namespace FizzBuzzKata.MSTest
 {
     [TestClass]
     public class MSTest
