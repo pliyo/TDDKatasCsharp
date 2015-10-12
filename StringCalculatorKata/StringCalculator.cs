@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringCalculator
 {
@@ -10,12 +7,16 @@ namespace StringCalculator
     {
         public int Add(string input)
         {
-            string[] result = input.Split(',');
+            string[] items = input.Split(',');
             List<int> sum = new List<int>();
-            foreach(var value in result)
+
+            foreach(var value in items)
             {
-                sum.Add(int.Parse(value));
+                int parsedValue = 0;
+                int.TryParse(value, out parsedValue);
+                sum.Add(parsedValue);
             }
+
             return sum.Sum();
         }
     }
