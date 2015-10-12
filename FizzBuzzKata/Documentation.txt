@@ -1,7 +1,8 @@
 ﻿To visualize NUnit tests in Test Explorer you'll need NUnit Adapter
 install-package nunittestadapter
 
-Write some code that will generate a string of integers, starting at 1 and going up to 100,
+Write some code that will generate a string of integers,
+starting at 1 and going up to 100,
 all separated by commas.
 Substitute any integer which is divisible by 3 with “Fizz”,
 and any integer which is divisible by 5 with “Buzz”,

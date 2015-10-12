@@ -9,7 +9,14 @@ namespace StringCalculator
 {
     [TestFixture]
     [Category("StringCalculator.Nunit")]
-    class StringCalculatorTests
+    public class StringCalculatorTests
     {
+        [TestCase("1,2", Result = 3)]
+        public int Add_ShouldReturn_TheSum_OfTwoNumbers(string input)
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+            int result = stringCalculator.Add(input);
+            return result;
+        }
     }
 }

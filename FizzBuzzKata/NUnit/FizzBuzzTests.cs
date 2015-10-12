@@ -38,16 +38,8 @@ namespace FizzBuzzKata.NUnit
         }
 
         [TestCase(4, Result = "Buzz")]
+        [TestCase(19, Result ="Buzz")]
         public string Fizz_Return_FizzBuzz_When_AnyInteger_Is_Divisible_Five(int position)
-        {
-            FizzBuzz fizzBuzz = new FizzBuzz();
-            string[] fullString = fizzBuzz.GetFizz();
-            string result = fullString[position].ToString();
-            return result;
-        }
-
-        [TestCase(14, Result = "FizzBuzz")]
-        public string Fizz_Return_FizzBuzz_When_AnyInteger_Is_Divisible_ByThreee_And_Five(int position)
         {
             FizzBuzz fizzBuzz = new FizzBuzz();
             string[] fullString = fizzBuzz.GetFizz();

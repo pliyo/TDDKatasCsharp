@@ -1,0 +1,7 @@
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\bin\Debug\StringCalculator.dll
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\bin\Debug\StringCalculator.pdb
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\bin\Debug\nunit.framework.dll
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\bin\Debug\nunit.framework.xml
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\obj\Debug\StringCalculatorKata.csprojResolveAssemblyReference.cache
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\obj\Debug\StringCalculator.dll
+C:\Development\Pliyo\TDDKatas\StringCalculatorKata\obj\Debug\StringCalculator.pdb
