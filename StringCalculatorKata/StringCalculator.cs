@@ -7,6 +7,8 @@ namespace StringCalculator
     {
         public int Add(string input)
         {
+            //input.Replace('\\', ',');
+            //input.Replace("n", "");
             string[] items = input.Split(',');
             List<int> sum = new List<int>();
 
