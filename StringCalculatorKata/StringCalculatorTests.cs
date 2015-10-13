@@ -39,7 +39,7 @@ namespace StringCalculator
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentException), ExpectedMessage = "negatives not allowed")]
         public void Add_WhenReceives_NegativeNumbers_ShouldThrow_Exception()
         {
             Add("-1");

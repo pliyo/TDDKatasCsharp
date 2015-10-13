@@ -29,7 +29,7 @@ namespace StringCalculator
                 int parsedValue = 0;
                 int.TryParse(value, out parsedValue);
                 if (parsedValue < 0)
-                    throw new ArgumentException("Can't handle negative numbers");
+                    throw new ArgumentException("negatives not allowed");
                 sum.Add(parsedValue);
             }
 
