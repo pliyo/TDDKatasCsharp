@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace StringCalculator
@@ -27,6 +28,8 @@ namespace StringCalculator
             {
                 int parsedValue = 0;
                 int.TryParse(value, out parsedValue);
+                if (parsedValue < 0)
+                    throw new ArgumentException("Can't handle negative numbers");
                 sum.Add(parsedValue);
             }
 

@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System;
 
 namespace StringCalculator
 {
@@ -35,6 +36,13 @@ namespace StringCalculator
         public int Add_ShouldReadDelimiter_At_TheBeginning(string input)
         {
             return Add(input);
+        }
+
+        [Test]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Add_WhenReceives_NegativeNumbers_ShouldThrow_Exception()
+        {
+            Add("-1");
         }
 
         private int Add(string input)
