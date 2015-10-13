@@ -5,11 +5,21 @@ namespace StringCalculator
 {
     public class StringCalculator
     {
-        private const string delimiter = ",";
+        private string delimiter = ",";
+        private const string beginDelimiter = "\\";
         public int Add(string rawInput)
         {
+            if (string.IsNullOrEmpty(rawInput)) return 0;
+
+            string verifyDelimiter = rawInput.Substring(0, 1);
+            if(verifyDelimiter == beginDelimiter)
+            {
+                delimiter = rawInput[1].ToString();
+                rawInput = rawInput.Replace(beginDelimiter, delimiter);
+            }
+         
             string cleanInput = rawInput.Replace("\n", delimiter);
-            string[] items = cleanInput.Split(',');
+            string[] items = cleanInput.Split(delimiter.ToCharArray());
 
             List<int> sum = new List<int>();
 
@@ -21,6 +31,7 @@ namespace StringCalculator
             }
 
             return sum.Sum();
+
         }
     }
 }

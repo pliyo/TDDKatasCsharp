@@ -31,6 +31,12 @@ namespace StringCalculator
             Add("1,\n2");
         }
 
+        [TestCase("\\;1;2", Result =3)]
+        public int Add_ShouldReadDelimiter_At_TheBeginning(string input)
+        {
+            return Add(input);
+        }
+
         private int Add(string input)
         {
             StringCalculator stringCalculator = new StringCalculator();
