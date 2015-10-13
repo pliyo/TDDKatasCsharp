@@ -5,10 +5,12 @@ namespace StringCalculator
 {
     public class StringCalculator
     {
+        private const string delimiter = ",";
         public int Add(string rawInput)
         {
-            string cleanInput = rawInput.Replace("\n", ",");
+            string cleanInput = rawInput.Replace("\n", delimiter);
             string[] items = cleanInput.Split(',');
+
             List<int> sum = new List<int>();
 
             foreach(var value in items)

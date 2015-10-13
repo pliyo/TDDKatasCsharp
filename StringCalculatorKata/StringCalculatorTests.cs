@@ -19,9 +19,16 @@ namespace StringCalculator
         }
         
         [TestCase("1\n2,3", Result =6)]
-        public int Add_ShouldIgnore_SlashN(string input)
+        public int Add_ShouldIgnore_SlashN_And_Return_Sum(string input)
         {
             return Add(input);
+        }
+
+        // TODO: Work in progress...
+        [Test]
+        public void Add_ShouldIgnore_CommaBefore_SlashN()
+        {
+            Add("1,\n2");
         }
 
         private int Add(string input)
