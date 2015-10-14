@@ -8,13 +8,20 @@ namespace BowlingKata
 {
     public class Bowling
     {
-        public int KnockedDown;
+        public int Tryies;
+        public int Score;
+
 
         public int Roll(int pins)
         {
-            if (pins > 10) pins = 10;
-            KnockedDown = pins;
-            return KnockedDown;
+            if(Tryies >= 2)
+            { 
+                Tryies = Tryies + 1;
+                if (pins > 10) pins = 10;
+                Score = pins;
+                return Score;
+            }
+            return 0;
         }
     }
 }
