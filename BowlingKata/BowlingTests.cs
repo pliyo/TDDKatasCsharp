@@ -30,7 +30,7 @@ namespace BowlingKata
             Assert.Equal(maxResult, score);
         }
 
-        [Fact]
+        [Theory]
         [InlineData(2)]
         public void Roll_Can_Try_Up_To_Two_Times_Each_Square(int pins)
         {

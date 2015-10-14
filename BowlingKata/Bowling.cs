@@ -14,7 +14,7 @@ namespace BowlingKata
 
         public int Roll(int pins)
         {
-            if(Tryies >= 2)
+            if(Tryies < 2)
             { 
                 Tryies = Tryies + 1;
                 if (pins > 10) pins = 10;
