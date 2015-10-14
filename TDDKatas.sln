@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata", "StringCalculatorKata\StringCalculatorKata.csproj", "{7797C2D0-505F-4636-8C16-17BD44542063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingKata", "BowlingKata\BowlingKata.csproj", "{5A9E9989-BE86-43D8-92F4-B7B0D8D4701A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7797C2D0-505F-4636-8C16-17BD44542063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7797C2D0-505F-4636-8C16-17BD44542063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7797C2D0-505F-4636-8C16-17BD44542063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9E9989-BE86-43D8-92F4-B7B0D8D4701A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9E9989-BE86-43D8-92F4-B7B0D8D4701A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9E9989-BE86-43D8-92F4-B7B0D8D4701A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9E9989-BE86-43D8-92F4-B7B0D8D4701A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
