@@ -11,7 +11,6 @@ namespace BowlingKata
     public class BowlingTests
     {
 
-        [Fact]
         [Theory]
         [InlineData(1)]
         public void Roll_Set_The_Number_Of_Pins_Knocked_Down(int pins)
@@ -19,6 +18,16 @@ namespace BowlingKata
             Bowling bowling = new Bowling();
             int result = bowling.Roll(pins);
             Assert.Equal(result, pins);
+        }
+
+        [Theory]
+        [InlineData(11)]
+        public void Rell_Cant_Knock_Down_MoreThan_Ten(int pins)
+        {
+            Bowling bowling = new Bowling();
+            int result = bowling.Roll(pins);
+            int maxResult = 10;
+            Assert.Equal(maxResult, result);
         }
     }
 }

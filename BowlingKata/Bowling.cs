@@ -12,6 +12,7 @@ namespace BowlingKata
 
         public int Roll(int pins)
         {
+            if (pins > 10) pins = 10;
             KnockedDown = pins;
             return KnockedDown;
         }
